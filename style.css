@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#main{
+	transition: 0.3s cubic-bezier(0.4, 0, 1, 1);  /*refres the page transtion*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+	background-color: #000000a3;
+
+}
+
+.body {
+  border: 4px solid black;
+  padding: 3rem 4rem; /*bg color*/
+  background-color: #c5c5c5;
+}
+
+#heading {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: 2%;
+  text-transform: uppercase;
+}
+
+#para {
+  margin-top: 1vh;
+  font-size: 1.5rem;
+}
+
+#button {
+  font-size: 190%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 15px;
+  background-color: rgb(199, 229, 255);
+}
